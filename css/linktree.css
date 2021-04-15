@@ -6,7 +6,7 @@ font-size: 15px;
 letter-spacing: 2px;}
 
 img {
-border-raidus: 50%;}
+border-radius: 50%;}
 
 .profile-picture {
 display: block;
@@ -14,7 +14,8 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 10%;
 height: auto;
-max-width: 100px;}
+max-width: 100px;
+border: 1px white}
 
 .profile-name {
 text-align: center;
@@ -33,6 +34,7 @@ margin-right: auto;
 border-radius: 40px;
 background: #e8e9f3;
 transition: background-color 0.5s}
+
 a {
 text-decoration: none;
 color: black;
