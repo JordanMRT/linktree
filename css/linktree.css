@@ -1,1 +1,55 @@
-html,body,#app{height:100%}.wrapper{min-height:100%}body{font-weight:700;margin:0;padding:0}.link{display:flex;flex-direction:row;justify-content:center;align-items:stretch;font-size:14px;line-height:18px;margin:21px auto;max-width:485px;min-height:48px;box-sizing:border-box;padding:4px;position:relative;border-radius:2px}.link .link-text{display:flex;align-items:center}.link.with-thumbnail{justify-content:left;min-height:64px}.link.with-thumbnail .thumbnail-wrapper{height:100%}.link.with-thumbnail .link-text{text-align:left}.link img{object-fit:cover;border-radius:2px;margin-right:8px;width:56px;height:56px;flex-shrink:0;display:block}
+body {
+background-image: url(http://ekladata.com/xs5uQ39fnfMNM4AWgpuLmJrE0xg/Back-filtered.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #fff;
+color: black;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+letter-spacing: 2px;}
+
+.profile-picture {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+height: auto;
+max-width: 100px;
+border: 1px white;
+border-radius: 50%;}
+
+.profile-name {
+text-align: center;
+padding: 30px;
+font-size: 30px}
+
+.links {
+text-align: center;
+margin-top: 20px;
+padding: 20px;
+border: 1px solid black;
+border-width: 2px;
+width: 290px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 40px;
+background: #e8e9f3;
+transition: background-color 0.5s}
+
+a {
+text-decoration: none;
+color: black;
+transition: color 1s;}
+
+.bottom-text {
+height: 100px;
+width: 100px;
+position: relative;
+}
+
+a:hover {
+color: #fff;
+background: #00241b;}
