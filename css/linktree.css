@@ -47,12 +47,9 @@ transition: color 1s;}
 .bottom-text {
 tex-align: center;
 margin-top: 40px;
-display: block;}
-
-.bottom-text img {
+display: block;
 max-width: 45%;
 height: 5%;
-margin-top:5%;
 margin-left: 10px;}
 
 a:hover {
