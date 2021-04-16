@@ -45,12 +45,13 @@ color: black;
 transition: color 1s;}
 
 .bottom-text {
-tex-align: center;
-margin-top: 40px;
-display: block;
-max-width: 45%;
-height: 5%;
-margin-left: 10px;}
+height: 100px;
+width: 100px;
+position: absolute;
+left: 50%;
+margin-left: -50px;
+top: 50%;
+margin-top: -50px;}
 
 a:hover {
 color: #fff;
