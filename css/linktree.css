@@ -1,14 +1,14 @@
 body {
+background-image: url(http://ekladata.com/RWpEMispZcK66nf9T_5bVhZRp1g/back.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #fff;
 color: black;
 font-family: 'Open Sans', sans-serif;
 font-size: 15px;
 letter-spacing: 2px;}
-
-.background {
-background-image: url(http://ekladata.com/RWpEMispZcK66nf9T_5bVhZRp1g/back.png) center top;
-width: auto;
-height: auto;
-background-size: contain;}
 
 .profile-picture {
 display: block;
@@ -47,7 +47,8 @@ transition: color 1s;}
 .bottom-text {
 tex-align: center;
 margin-top: 40px;
-display: block;}
+display: block;
+text-position: center center;}
 
 a:hover {
 color: #fff;
